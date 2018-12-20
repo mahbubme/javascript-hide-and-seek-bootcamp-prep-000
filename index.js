@@ -19,7 +19,7 @@ function deepestChild() {
   
   var deepestChild;
   for( i = 0; i < nodes.length; i++ ) {
-    deepestChild = nodes[i].
+    deepestChild = nodes[i].querySelector
   }
   
   return deepestChild;
