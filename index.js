@@ -20,6 +20,5 @@ function deepestChild() {
   var deepestChild;
   
   
-  
   return deepestChild;
 }
