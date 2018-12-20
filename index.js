@@ -14,22 +14,13 @@ function increaseRankBy(n) {
   }
 }
 
-// function deepestChild() {
-//   var nodes = document.getElementById("grand-node").querySelectorAll("div");
-  
-//   var deepestChild;
-//   for( var i = 0; i < nodes.length; i++ ) {
-//     deepestChild = nodes[i].querySelector("div");
-//   }
-  
-//   return deepestChild;
-// }
-
 function deepestChild() {
-  var lis=document.getElementById("grand-node").querySelectorAll("div");
-  var test;
-  for(let i=0;i<lis.length-1;i++) {
-    test=lis[i].querySelector("div");
+  var deepestChild;
+  var nodes = document.getElementById("grand-node").querySelectorAll("div");
+  
+  for( let i = 0; i < nodes.length-1; i++ ) {
+    deepestChild = nodes[i].querySelector("div");
   }
-return test;
+  
+  return deepestChild;
 }
